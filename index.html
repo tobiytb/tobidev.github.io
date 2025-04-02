@@ -1,8 +1,73 @@
-<htlm>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tobidev.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1e1e2e;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #282a36;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+            opacity: 0.8;
+        }
+        .button {
+            display: block;
+            width: 80%;
+            max-width: 250px;
+            padding: 15px;
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            background: #ff8c00;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 10px auto;
+        }
+        .button:hover {
+            background: #ff6f00;
+        }
+        .download-button {
+            background: #007bff;
+        }
+        .download-button:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
-<h1>tobidev</h1>
+    <div class="container">
+        <h1>Hey:)</h1>
+        <p>The latest IPA is always linked bellow!
+        If you're jailbroken you can directly add my repo to sileo to always stay up-to-date.</p>
+        
+        <!-- Add Repo to Sileo Button -->
+        <a class="button" href="sileo://source/https://ytbshark.github.io/" target="_blank">
+            Add to Sileo
+        </a>
+        
+        <!-- Download File Button (Update the href with your file link later) -->
+        <a class="button download-button" href="https://github.com/ytbshark/ytbshark.github.io/releases/download/jailed-1.7.3.2/SharkMod_1.7.3.ipa" download>
+            Download Latest IPA
+        </a>
+    </div>
 </body>
 </html>
